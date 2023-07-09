@@ -1,0 +1,186 @@
+*{
+	margin: 0 ;
+	padding: 0 ;
+	font-family: 'Montserrat', sans-serif;
+    font-size:13pt
+}
+
+/* navbar */
+li a {
+    font-size: 16pt;
+
+}
+.navbar-nav{
+	margin-right: 0 !important;
+	padding-right: 100px;
+}
+
+.navbar{
+	background-color: #122554;
+	color: white !important;
+  
+}
+
+.nav-item a{
+	color: white !important;
+}
+
+
+
+.navbar-brand{
+	color: white !important;
+	padding-left: 100px;
+    letter-spacing: 5px;
+}
+
+#navbar button{
+	color: white !important;
+}
+
+/* banner */
+
+#banner-container{
+	background-color: #122554;
+	color: white !important;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	
+}
+
+
+
+
+
+
+#about{
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+#about h1{
+	padding-bottom: 70px;
+}
+
+
+#about-col p{
+    color:#837e7e;
+}
+#about-col ul li{
+	padding-top: 15px;
+	
+}
+
+
+
+
+
+#banner-row{
+    --bs-gutter-x:none !important;
+    justify-content: space-evenly;
+}
+#service-col2{
+    width:25%;
+}
+
+
+.mb-3{
+padding-top: 10px;
+}
+
+
+/* media */
+@media only screen and (max-width: 987px){
+	.navbar-brand{
+		padding-left: 0px;
+	}
+}
+
+@media only screen and (max-width: 768px){
+	#banner-row img{
+		padding-top: 20px;
+	}
+}
+.social-col{
+	width: 33%;
+}
+
+
+
+.c-item {
+    height: 480px;
+  }
+  
+  .c-img {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+  }
+  @media (max-width: 1350px) {
+    #banner-row .col-md-4 {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+
+#team{
+    
+    padding:80px 0px
+    
+}
+#team .col-md-6 img{
+    height:60%;
+    width:100%;
+    padding:0px;
+}
+#team .row{
+    --bs-gutter-x:none!important;
+    padding:10px;
+}
+
+ #service-container{
+    display:flex;
+    flex-wrap: wrap;
+    max-width:100%;
+
+ }
+ .headline{
+    background-color: #122554;
+    padding:80px 0;
+ }
+#gallery{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height:100%;
+    max-width:100%;
+    padding:80px 0px;
+}
+#gallery .row{
+
+    width:100%;
+   
+
+}
+
+@media (max-width: 775px){
+    #gallery .row:nth-child(2){
+        flex-direction: column-reverse;
+    }
+}
+
+#gallery .row .col-md-6 img{
+
+    width:100%;
+    padding:20px 0px;
+}
+.grey p{
+    color:#837e7e
+}
+p a{
+    text-decoration: none;
+    color:#122554;
+    cursor:pointer; 
+}
+p a:hover{
+    color:#122554;
+}
